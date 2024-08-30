@@ -1,0 +1,7 @@
+# python
+__pycache__/
+.venv/
+.python-version
+
+# database
+db.sqlite3
