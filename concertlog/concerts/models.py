@@ -8,6 +8,7 @@ class Venue(models.Model):
     city = models.CharField(max_length=30)
     state = models.CharField(max_length=2)
     zip_code = models.IntegerField()
+    #TODO: add tags, like large, small, ticket vendor?
 
 class Concert(models.Model):
     band_name = models.CharField(max_length=200)
