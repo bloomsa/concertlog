@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Venue List</title>
+</head>
+
+<body>
+    <h1>Visited Venues</h1>
+    <ul>
+        {% for venue in venues %}
+            <li>{{venue.venue_name}}</li>
+        {% empty %}
+            <li>No venues found</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
