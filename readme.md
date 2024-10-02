@@ -10,4 +10,3 @@ Run the development server, by default it supports auto-reloading on changes
 ### data models and databases
 - `python manage.py migrate` runs migrations that are queued up (migration files present, and haven't been ran)
 Django keeps a log of migration scripts that have ran in order to know what it needs to run next.
-- 

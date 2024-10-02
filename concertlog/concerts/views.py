@@ -9,4 +9,4 @@ def index(request):
 
 def venue_list(request):
     venues = Venue.objects.all()
-    return render(request, 'concerts/venue_index.html', {'venues': venues})
+    return render(request, 'concerts/venue_index.html', {'venues': venues}) 
